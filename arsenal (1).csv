@@ -1,0 +1,408 @@
+﻿NOMBRE DEL MEDICAMENTO;PRESENTACION DISPONIBLE;CLASIFICACIÓN;OBSERVACIONES
+ACENOCUMAROL;Comprimido 4mg;Hemostáticos y anticoagulantes;
+ACETAZOLAMIDA*;Comprimido 250mg;Diuréticos;
+ACICLOVIR;Comprimido 200 y/o 400mg;Antivirales;Grupo de vigilancia (PROA)
+ACIDO ACETILSALICILICO;Comprimido 100mg;Hematológicos y anticoagulantes;FOFAR/Carro de paro
+ACIDO ACETILSALICILICO;Comprimido 500mg;Analgésicos y antiinflamatorios;
+ACIDO FOLICO;Comprimido 1mg;Vitaminas y metabolismo;GES Cirrosis hepatica 
+ACIDO FOLICO;Comprimido 5mg;Vitaminas y metabolismo;
+ACIDO MEFENAMICO;Comprimido 500mg;Analgésicos y antiinflamatorios;
+ACIDO TRANEXAMICO;Comprimido 500mg;Hemostáticos y anticoagulantes;Programa AD y CP
+ACIDO TRANEXAMICO;Solución inyectable 1g/10mL;Hemostáticos y anticoagulantes;
+ACIDO VALPROICO*;Comprimido 200mg;Sistema nervioso y músculo estriado;PM Epilepsia
+ACIDO VALPROICO*;Jarabe 250 mg/5mL;Sistema nervioso y músculo estriado;PM Epilepsia
+ACIDO VALPROICO*;Comprimido Liberación Prolongada 250 mg;Sistema nervioso y músculo estriado;PM Epilepsia
+ACIDO VALPROICO*;Comprimido 250 mg;Sistema nervioso y músculo estriado;PM Epilepsia
+ACIDO VALPROICO*;Solución oral gotas 375 mg/mL;Sistema nervioso y músculo estriado;PM Epilepsia
+ACIDO ZOLENDRONICO*;Solución inyectable 4mg/5mL;Endocrino y metabolismo;Programa AD y CP
+ADENOSINA;Solución inyectable 6mg/2mL;Cardiovascular;Carro de paro
+AGUA BIDESTILADA;Solución inyectable 5mL;Soluciones inyectables y excipientes;Carro de paro
+ALBENDAZOL;Comprimido 200mg;Antiparasitarios;Normativa Triquinosis
+ALBENDAZOL;Suspensión oral 200mg/5mL;Antiparasitarios;Normativa Triquinosis
+ALBUMINA SERICA HUMANA;Solucion inyectable al 20%;Soluciones inyectables y excipientes;Parecentesis evacuadora
+ALCOHOL ETILICO;Solución desnaturalizada 70°;Antisépticos y desinfectantes;
+ALOPURINOL;Comprimido 100mg;Endocrino y metabolismo;
+ALOPURINOL;Comprimido 300mg;Endocrino y metabolismo;
+ALPRAZOLAM;Comprimido 0,5mg;Sistema nervioso y músculo estriado;
+ALUMINIO HIDROXIDO;Comprimido 500mg;Tracto digestivo y metabolismo;
+AMIKACINA;Solución inyectable 500mg/2mL;Antibacterianos;Grupo de acceso (PROA)
+AMIODARONA (Clorhidrato);Comprimido 200mg;Cardiovascular;
+AMIODARONA (Clorhidrato);Solución inyectable 50mg/mL;Cardiovascular;Carro de paro
+AMITRIPTILINA (Clorhidrato);Comprimido 25mg;Sistema nervioso y músculo estriado;CPU
+AMLODIPINO;Comprimido 5mg;Cardiovascular;FOFAR
+AMLODIPINO;Comprimido 10mg;Cardiovascular;FOFAR
+AMOXICILINA;Comprimido 500mg;Antibacterianos;Grupo de acceso (PROA)
+AMOXICILINA;Jarabe o suspensión oral 500mg/5mL;Antibacterianos;Grupo de acceso (PROA)
+AMOXICILINA + AC. CLAVULANICO;Comprimido 500mg + 125mg;Antibacterianos;Grupo de acceso (PROA)
+AMOXICILINA + AC. CLAVULANICO;Comprimido 875mg + 125mg;Antibacterianos;Grupo de acceso (PROA)
+AMOXICILINA + AC. CLAVULANICO;Suspensión oral 400mg + 57mg/5mL;Antibacterianos;Grupo de acceso (PROA)
+AMPICILINA;Polvo para solución inyectable 500mg;Antibacterianos;Grupo de acceso (PROA)
+ANFEBUTAMONA (BUPROPION);Comprimido liberación prolongada 150 mg;Antidepresivo;GES cesación del consumo de tabaco (PM)
+AMPICILINA + SULBACTAM*;Polvo para solución inyectable 1000mg + 500mg;Antibacterianos;Gestión de camas en Red/Grupo de vigilancia (PROA)
+ANFETAMINA*;Comprimido 10mg;Sistema nervioso y músculo estriado;"Psiquiatría Infanto-Juvenil/	
+Contrareferencia del nivel secundario psiquiatra infantoadolescente"
+ARIPIPRAZOL*;Comprimido 10mg;Sistema nervioso y músculo estriado;"Pacientes con estabilidad psicopatológica y compensación clínica que no toleran risperidona, en el contexto de continuidad de tratamiento de salud mental/	
+Contrareferencia del nivel secundario psiquiatra infantoadolescente"
+ATENOLOL;Comprimido 50mg;Cardiovascular;FOFAR
+ATORVASTATINA;Comprimido 20mg;Cardiovascular;FOFAR
+ATORVASTATINA;Comprimido 40mg;Cardiovascular;
+ATROPINA (Sulfato);Solución inyectable 1mg/mL;Cardiovascular;Carro de paro
+AZATIOPRINA*;Comprimido 50mg;Endocrino y metabolismo;Artritis Reumatoídea
+AZITROMICINA;Comprimido 500mg;Antibacterianos;Grupo de vigilancia (PROA)
+AZITROMICINA;Suspensión oral 200mg/5mL;Antibacterianos;Grupo de vigilancia (PROA)
+AZITROMICINA;Suspensión oral 400mg/5mL;Antibacterianos;Grupo de vigilancia (PROA)
+BACITRACINA + NEOMICINA;Ungüento tópico 50.000 UI + 0,5g;Antibacterianos / Dermatológicos;
+BENCILPENICILINA;Polvo para solución inyectable 1.000.000 UI;Antibacterianos;Grupo de acceso (PROA)
+BENCILPENICILINA;Polvo para solución inyectable 2.000.000 UI;Antibacterianos;Grupo de acceso (PROA)
+BETAMETASONA (Dipropionato);Crema 0,05%;Dermatológicos;
+BETAMETASONA (Fosfato disódico);Solución inyectable 4mg/mL;Endocrino y metabolismo;Carro de paro
+BISOPROLOL*;Comprimido 2,5mg;Cardiovascular;
+BUDESONIDA;Inhalador oral 200mcg/dosis;Respiratorio;PM Salud Respiratoria
+BUDESONIDA + FORMOTEROL*;Frasco 160mcg/4,5mcg/dosis;Respiratorio;PM Salud Respiratoria
+BUPRENORFINA;Parche transdérmico 35mcg/h;Analgésico opioide;Programa AD y CP/CPU
+CALCIO (Carbonato);Comprimido 500mg;Endocrino y metabolismo;
+CALCIO (Gluconato);Solución inyectable 10%;Soluciones inyectables y excipientes;Carro de paro
+CALCIO + VITAMINA D;Comprimido 500 mg + 800 UI;Vitaminas y metabolismo;GES Cirrosis hepatica 
+CALCIO + VITAMINA D;Comprimido 450 mg + 175 UI;Vitaminas y metabolismo;
+CAPTOPRIL;Comprimido 25mg;Cardiovascular;Carro de paro
+CARBAMAZEPINA*; Comprimido de Liberación Prolongada 200 mg;Sistema nervioso y músculo estriado;PM Epilepsia
+CARBAMAZEPINA*;Comprimido 200 mg;Sistema nervioso y músculo estriado;PM Epilepsia
+CARBAMAZEPINA*;Comprimido de liberación prolongada 400mg;Sistema nervioso y músculo estriado;PM Epilepsia
+CARBETOCIN;Solución inyectable 100mcg/mL;Genitourinario;Urgencia Gineco-Obstétrica
+CARBON ACTIVADO;Polvo para suspensión oral;Antídotos;
+CARVEDILOL;Comprimido 6,25mg;Cardiovascular;FOFAR/PM Cirrosis hepatica
+CARVEDILOL;Comprimido 12,5mg;Cardiovascular;FOFAR
+CARVEDILOL;Comprimido 25mg;Cardiovascular;FOFAR
+CEFADROXILO;Comprimido 500mg;Antibacterianos;Grupo de acceso (PROA)
+CEFADROXILO;Suspensión oral 250mg/5mL y/o 500mg/5mL;Antibacterianos;Grupo de acceso (PROA)
+CEFAZOLINA;Polvo para solución inyectable 1g;Antibacterianos;Grupo de acceso (PROA)
+CEFTAZIDIMA*;Polvo para solución inyectable 1g;Antibacterianos;Gestión de camas en Red/Grupo de vigilancia (PROA)
+CEFTRIAXONA (Disódica);Polvo para solución inyectable 1g;Antibacterianos;Grupo de vigilancia (PROA)
+CELECOXIB;Comprimido 200mg;Analgésicos y antiinflamatorios;PM Artrosis/Artritis Reumatoídea/CPU
+CETIRIZINA;Comprimido 10mg;Antialérgicos y antihistamínicos;
+CIANOCOBALAMINA;Solución inyectable 0,1mg/mL;Vitaminas y metabolismo;
+CICLOBENZAPRINA (Clorhidrato);Comprimido 10mg;Sistema nervioso y músculo estriado;
+CIPROFLOXACINO (Clorhidrato);Comprimido 500mg;Antibacterianos;Grupo de vigilancia (PROA)
+CIPROFLOXACINO (Clorhidrato);Solución ótica 0,3%;Antibacterianos;Solo indicación en otitis externa/Grupo de vigilancia (PROA)
+CITALOPRAM;Comprimido 20mg;Sistema nervioso y músculo estriado;GES Demencia
+CLARITROMICINA;Comprimido 500mg;Antibacterianos;Grupo de vigilancia (PROA)
+CLARITROMICINA;Polvo para suspensión oral 250mg/5mL;Antibacterianos;Grupo de vigilancia (PROA)
+CLINDAMICINA (Clorhidrato);Comprimido 300mg;Antibacterianos;GES Odontología
+CLINDAMICINA (Clorhidrato);Solución inyectable 600mg ;Antibacterianos;
+CLOBETASOL;Crema 0,05%;Dermatológicos;
+CLONAZEPAM;Comprimido 0,5mg;Sistema nervioso y músculo estriado;
+CLOBAZAM*;Comprimido 10 mg ;Benzodiacepina;PM Epilepsia
+CLONAZEPAM;Comprimido 2mg;Sistema nervioso y músculo estriado;
+CLONIXINATO DE LISINA;Comprimidos 125mg;Analgésicos y antiinflamatorios;
+CLOPIDOGREL;Comprimido 75mg;Hematológicos y anticoagulantes;
+CLORANFENICOL;Solución oftálmica 0,5%;Antibacterianos;y/o Gentamicina solucion oftalmica 0,3%/Grupo de acceso (PROA)
+CLORANFENICOL;Ungüento oftálmico 1%;Antibacterianos;Grupo de acceso (PROA)
+CLORFENAMINA;Comprimido 4mg;Antialérgicos y antihistamínicos;
+CLORFENAMINA;Solución inyectable 10mg/mL;Antialérgicos y antihistamínicos;Carro de paro
+CLORHEXIDINA;Colutorio dental 0,12%;Antisépticos y desinfectantes;
+CLORHEXIDINA;Solución 1%, lavado quirúrgico;Antisépticos y desinfectantes;
+CLORHEXIDINA;Solución jabonosa de uso externo 2%;Antisépticos y desinfectantes;
+CLORHEXIDINA;Solución jabonosa de uso externo 4%;Antisépticos y desinfectantes;
+CLORPROMAZINA (Clorhidrato);Comprimido 100mg;Sistema nervioso y músculo estriado;CPU
+CLORPROMAZINA (Clorhidrato);Comprimido 25 mg;Sistema nervioso y músculo estriado;
+CLORPROMAZINA (Clorhidrato);Solución inyectable 12,5mg/mL;Sistema nervioso y músculo estriado;
+CLOTIAZEPAM;Comprimido 10mg;Sistema nervioso y músculo estriado;Ansiedad generalizada, Síndrome de abstinencia alcohólica, según protocolo local.
+CLOTRIMAZOL;Crema 1%;Antifúngicos;
+CLOTRIMAZOL;Ovulo o comprimido vaginal 500mg;Antifúngicos;
+CLOXACILINA (Sódica);Polvo para solución inyectable 500mg;Antibacterianos;
+COLCHICINA;Comprimido 0,5mg;Analgésicos y antiinflamatorios;
+COTRIMOXAZOL (Forte);Comprimido SMT 800mg + TMP 160mg;Antibacterianos;Grupo de acceso (PROA)
+COTRIMOXAZOL*;Solución inyectable SMT 400mg + TMP 80mg;Antibacterianos;Gestión de camas en Red/Grupo de acceso (PROA)
+DAPAGLIFLOZINA o EMPAGLIFLOZINA;Comprimido 10 mg;Endocrino y metabolismo;Para tratamiento de pacientes con diagnostico DM2, que cumplan con criterios clínicos definidos por Protocolo elaborado por PSCV
+DARUNAVIR;Comprimidos 800 mg;Antivirales;GES Victimas de violencia sexual/Grupo de vigilancia (PROA)
+DELTAMETRINA + PIPERONIL BUTOXIDO;Shampoo o Loción 10% + 2,5g;Antiparasitarios;Alternativa a PERMETRINA
+DESLORATADINA;Comprimido 5mg;Antialérgicos y antihistamínicos;PM Salud Respiratoria
+DEXAMETASONA;Comprimido 4mg;Endocrino y metabolismo;Programa AD y CP/CPU
+DEXAMETASONA;Solución inyectable 4mg/mL;Endocrino y metabolismo;CPU
+DIAZEPAM;Comprimido 10mg;Sistema nervioso y músculo estriado;
+DIAZEPAM;Solución inyectable 10mg/mL;Sistema nervioso y músculo estriado;Carro de paro
+DICLOFENACO (Sódico);Comprimido 50mg;Analgésicos y antiinflamatorios;
+DICLOFENACO (Sódico);Solución inyectable 25mg/mL;Analgésicos y antiinflamatorios;
+DICLOFENACO (Sódico);Supositorio infantil 12,5mg;Analgésicos y antiinflamatorios;
+DIGOXINA;Comprimido 0,25mg;Cardiovascular;
+DILTIAZEM*;Comprimido 60mg;Cardiovascular;
+DISULFIRAM;Comprimido 500mg;Sistema nervioso y músculo estriado;
+DIVALPROATO (Sódico)*;Comprimido de liberación prolongada 500mg;Sistema nervioso y músculo estriado;PM Epilepsia
+DOMPERIDONA;Comprimido 10mg;Tracto digestivo y metabolismo;
+DOMPERIDONA;Solución inyectable 10mg/2mL;Tracto digestivo y metabolismo;Programa AD y CP
+DOMPERIDONA;Solución oral para gotas 10mg/mL;Tracto digestivo y metabolismo;Solo en pacientes adultos mayor a 12 años/CPU
+DOMPERIDONA;Supositorio 60mg;Tracto digestivo y metabolismo;Programa AD y CP
+DONEPECILO*;Comprimido 10mg;Sistema nervioso y músculo estriado;
+DOPAMINA;Solución inyectable 200mg/5mL;Cardiovascular;Carro de paro
+DOXAZOSINA*;Comprimido 4mg;Cardiovascular;
+DOXICICLINA;Comprimido 100mg;Antibacterianos;Grupo de vigilancia (PROA)
+DOXILAMINA (Succinato) + PIRIDOXINA (Clorhidrato);Comprimido 10mg + 10mg;Sistema nervioso y músculo estriado;
+DULOXETINA;Comprimido 30 mg;Sistema nervioso y músculo estriado;CPU/Fibromialgia
+EFEDRINA;Solución inyectable 6%;Respiratorio;
+ENALAPRIL (Maleato);Comprimido 10mg;Cardiovascular;FOFAR
+ENEMA EVACUANTE;Fosfato de Sodio Monobásico 19 g + Fosfato de Sodio Dibásico 7 g;Gastrointestinales;Preparación exámenes radiológicos a pacientes No GES/HCSF adquiere y distribuye a Cesfam de su microrred. Programa AD y CP/CPU
+ENOXAPARINA;Solución inyectable 40mg;Hemostáticos y anticoagulantes;Solo uso intrahospitalario
+ENOXAPARINA;Solución inyectable 80mg;Hemostáticos y anticoagulantes;Solo uso intrahospitalario
+EPINEFRINA (Clorhidrato) (ADRENALINA);Solución inyectable 1mg/mL;Cardiovascular;Carro de paro
+ESPIRONOLACTONA;Comprimido 25mg;Diuréticos;FOFAR/PM Cirrosis hepatica
+ESTRADIOL;Comprimido 1mg;Hormonas sexuales;PM Mujer (Climaterio)
+ESTRADIOL;Gel 0,1% tubo con válvula dosificadora 0,5mg/pulsación;Hormonas sexuales;PM Mujer (Climaterio)
+ESCOPOLAMINA;Ampolla 20 mg/ml;Tracto digestivo y metabolismo;CPU
+ESCITALOPRAM;Comprimidos 10 mg;Sistema nervioso y músculo estriado;Protocolo de uso/CPU
+ESTREPTOMICINA;Polvo para solución inyectable 1g;Antibacterianos;TBC
+ESZOPICLONA;Comprimido 3mg;Inductor del sueño;GES Depresión
+ETAMBUTOL;Comprimido 400mg;Antibacterianos;TBC
+ETOMIDATO;Solución inyectable 20mg/10mL;Sistema nervioso y músculo estriado;Carro de Paro/Secuencia rápida de intubación en pacientes con tendencia a hipotensión.
+ETONOGESTREL;Implante subdérmico 68mg;Hormonas sexuales;PM Mujer
+ETONOGESTREL/ETINILESTRADIOL;Anillo vaginal 11,7 mg/2,7 mg;Hormonas sexuales;PM Mujer
+FAMOTIDINA;Comprimido 40mg;Tracto digestivo y metabolismo;Alternativa a RANITIDINA
+FENITOINA (Sódica);Comprimido 100mg;Sistema nervioso y músculo estriado;PM Epilepsia
+FENITOINA (Sódica);Solución inyectable 250mg/5mL;Sistema nervioso y músculo estriado;Carro de paro
+FENOBARBITAL*;Comprimido 15mg;Sistema nervioso y músculo estriado;PM Epilepsia
+FENOBARBITAL;Comprimido 100mg;Sistema nervioso y músculo estriado;
+FENOTEROL (Bromhidrato);Solución inyectable 0,05mg/mL;Respiratorio;Urgencia Gineco-Obstétrica
+FENTANILO;Parche transdérmico 25mcg/h;Analgésico opioide;Programa AD y CP/Alternativa a BUPRENORFINA
+FENTANILO;Parche transdérmico 50mcg/h;Analgésico opioide;Programa AD y CP/Alternativa a BUPRENORFINA
+FENTANILO;Solución inyectable 0,1mg/2mL;Analgésico opioide;
+FENTANILO;Solución inyectable 0,5mg/10mL;Analgésico opioide;
+FIERRO (Bis Glicinato);Solución oral para gotas 6mg/mL;Hematológicos y anticoagulantes;
+FIERRO (Fumarato asociado a Vitaminas y Ac. Fólico);Comprimido;Vitaminas y metabolismo;
+FIERRO (Sulfato);Comprimido 200mg;Hematológicos y anticoagulantes;
+FITOMENADIONA;Solución inyectable 1mg/mL;Hemostáticos y anticoagulantes;
+FITOMENADIONA;Solución inyectable 10mg/mL;Hemostáticos y anticoagulantes;
+FLUCLOXACILINA;Comprimido 500 mg;Antibacterianos;Grupo de acceso (PROA)
+FLUCLOXACILINA;Jarabe 250mg/5mL;Antibacterianos;Grupo de acceso (PROA)
+FLUCONAZOL;Comprimido 150mg;Antifúngicos;Grupo de vigilancia (PROA)
+FLUFENAZINA (Decanoato)*;Solución inyectable 25mg/mL;Sistema nervioso y músculo estriado;
+FLUMAZENILO;Solución inyectable 0,1mg/mL;Sistema nervioso y músculo estriado;Carro de paro
+FLUNARIZINA;Comprimido 10mg;Sistema nervioso y músculo estriado;alternativa Cinarizina
+FLUOR;Solución barniz para uso tópico;Antisépticos y desinfectantes;
+FLUORURO DE SODIO;Colutorio dental 0,05%;Antisépticos y desinfectantes;
+FLUOXETINA;Comprimido 20mg;Sistema nervioso y músculo estriado;
+FLUTICASONA;Frasco 125 mcg/dosis;Respiratorio;PM Salud Respiratoria
+FLUTICASONA + SALMETEROL*;Inhalador oral 125mcg + 25mg;Respiratorio;PM Salud Respiratoria
+FLUTICASONA + SALMETEROL;Inhalador oral 250mcg +25mg;Respiratorio;PM Salud Respiratoria
+FUROSEMIDA;Comprimido 40mg;Diuréticos;FOFAR
+FUROSEMIDA;Solución inyectable 20mg/mL;Diuréticos;Carro de paro
+GAMMAGLOBULINA HUMANA ANTI-D;Suspensión para inyectable;Hematológicos y anticoagulantes;
+GEMFIBROZILO;Comprimido 600mg;Endocrino y metabolismo;
+GENTAMICINA (Sulfato);Solución inyectable 40mg/mL;Antibacterianos;Grupo de acceso (PROA)
+GENTAMICINA ;Solucion oftalmica 0,3%;Antibacterianos;y/o Cloranfenicol sol oftalmica 0,5%/Grupo de acceso (PROA)
+GLIBENCLAMIDA;Comprimido 5mg;Endocrino y metabolismo;FOFAR/Financiado por Apoyo a la Gestion
+GLICERINA;Supositorio 2,5 mg;Gastrointestinales;CPU
+GLUCOSA;Polvo 75g o Solución oral 75g/250mL;Soluciones inyectables y excipientes;
+GLUCOSA;Solución inyectable 5%;Soluciones inyectables y excipientes;Carro de paro
+GLUCOSA;Solución inyectable 10%;Soluciones inyectables y excipientes;Carro de paro
+GLUCOSA;Solución Inyectable 30%;Soluciones inyectables y excipientes;Carro de paro
+HALOPERIDOL (Decanoato);Comprimido 1mg y/o 5mg;Sistema nervioso y músculo estriado;Presentación comprimido 1 mg (CPU)
+HALOPERIDOL (Decanoato);Solución inyectable 5mg/mL;Sistema nervioso y músculo estriado;CPU
+HEPARINA (Sódica);Solución inyectable 5.000 UI/mL;Hemostáticos y anticoagulantes;
+HIDRALAZINA*;Comprimido 50mg;Cardiovascular;
+HIDROCLOROTIAZIDA;Comprimido 50mg;Diuréticos;FOFAR
+HIDROCORTISONA (Acetato);Crema 1%;Dermatológicos;Solo uso pediátrico
+HIDROCORTISONA (Succinato);Polvo para solución inyectable 100mg;Endocrino y metabolismo;carro de paro
+HIDROCORTISONA (Succinato);Polvo para solución inyectable 500mg;Endocrino y metabolismo;
+HIDROXICLOROQUINA*;Comprimido 200mg;Antiparasitarios;Artritis Reumatoídea
+HIERRO SACARATO ENDOVENOSO;Solucion inyectable 100 mg/5 ml;Hematológicos y anticoagulantes;uso ambulatorio
+IBUPROFENO;Comprimido 400mg;Analgésicos y antiinflamatorios;
+IBUPROFENO;Suspensión oral 200mg/5mL;Analgésicos y antiinflamatorios;
+IMIPENEM + CILASTATINA*;Polvo para solución inyectable 500mg + 500mg;Antibacterianos;Gestión de camas en Red/Grupo de Reserva (PROA)
+IMIPRAMINA (Clorhidrato);Comprimido 25mg;Sistema nervioso y músculo estriado;
+INDOMETACINA*;Comprimido 25mg;Analgésicos y antiinflamatorios;Artritis Reumatoídea
+INSULINA HUMANA CRISTALINA;Solución inyectable 100 UI/mL;Endocrino y metabolismo;PM Cardiovascular (Uso transitorio en caso de descompensación, a la espera de resolución IC con especialista, no para continuidad de tratamiento)
+INSULINA HUMANA ISOFANA (NPH);Suspensión inyectable 100 UI/mL;Endocrino y metabolismo;PM Cardiovascular
+IPRATROPIO (Bromuro);Inhalador oral 0,02mg/dosis;Respiratorio;PM Salud Respiratoria
+IPRATROPIO (Bromuro);Solución para nebulización 0,25mg/mL;Respiratorio;
+ISONIAZIDA;Comprimido 100mg;Antibacterianos;TBC
+KETOROLACO;Solución inyectable 30mg/mL;Analgésicos y antiinflamatorios;CPU
+KETOROLACO;Comprimido 10 mg y/o 30mg;Analgésicos y antiinflamatorios;Comprimido 10 mg (CPU)
+LABETALOL;Solución inyectable 5mg/mL;Cardiovascular;Carro de paro
+LACOSAMIDA*;Comprimido 100 mg;Sistema nervioso y músculo estriado;PM Epilepsia
+LACTOBACILLUS RHAMNOSUS;Cápsula 75mg;Gastrointestinales;
+LACTULOSA;Solución oral 65%;Gastrointestinales;CPU/PM Cirrosis hepatica
+LAMIVUDINA ;Frasco 50 mg/5ml;Antivirales;GES Victimas de violencia sexual/Grupo de vigilancia (PROA)
+LAMOTRIGINA*;Comprimido buco dispersable 25 mg;Sistema nervioso y músculo estriado;PM Epilepsia
+LAMOTRIGINA*;Comprimido 50mg;Sistema nervioso y músculo estriado;PM Epilepsia
+LAMOTRIGINA*;Comprimido 100mg;Sistema nervioso y músculo estriado;PM Epilepsia
+LEFLUNOMIDA*;Comprimido 20mg;Analgésicos y antiinflamatorios;Artritis Reumatoídea
+LEVETIRACETAM*;Comprimido 500mg;Sistema nervioso y músculo estriado;PM Epilepsia
+LEVETIRACETAM*;Comprimido 1000mg;Sistema nervioso y músculo estriado;PM Epilepsia
+LEVETIRACETAM*;Jarabe 100mg/mL;Sistema nervioso y músculo estriado;PM Epilepsia
+LEVOCETIRIZINA;Jarabe 5mg/5mL;Antialérgicos y antihistamínicos;
+LEVODOPA + BENSERAZIDA*;Comprimido 200mg + 50mg;Sistema nervioso y músculo estriado;PM Parkinson
+LEVODOPA + CARBIDOPA*;Comprimido 250mg + 25mg;Sistema nervioso y músculo estriado;PM Parkinson
+LEVOFLOXACINO;Comprimido 500mg;Antibacterianos;Grupo de vigilancia (PROA)
+LEVONORGESTREL;Comprimido 0,03mg;Hormonas sexuales;PM Mujer
+LEVONORGESTREL;Comprimido 0,75 y/o 1,5mg;Hormonas sexuales;PM Mujer
+LEVONORGESTREL;Dispositivo intrauterino 20mcg/24hrs;Hormonas sexuales;PM Mujer
+LEVONORGESTREL;Implante subdérmico 75mg;Hormonas sexuales;PM Mujer
+LEVONORGESTREL + ETINILESTRADIOL;Comprimido 0,15mg + 0,03mg;Hormonas sexuales;PM Mujer
+LEVOTIROXINA;Comprimido 50mcg;Endocrino y metabolismo;PM Hipotiroidismo
+LEVOTIROXINA;Comprimido 100mcg;Endocrino y metabolismo;PM Hipotiroidismo
+LIDOCAINA (Clorhidrato);Carpule uso odontológico 2% c/s vasoconstrictor;Sistema nervioso y músculo estriado;
+LIDOCAINA (Clorhidrato);Gel tópico 4%;Dermatológicos;
+LIDOCAINA (Clorhidrato);Solución inyectable 2%;Sistema nervioso y músculo estriado;Carro de paro
+LITIO (Carbonato)*;Comprimido 300mg;Sistema nervioso y músculo estriado;"Psiquiatría Infanto-Juvenil/	
+Contrareferencia del nivel secundario psiquiatra infantoadolescente"
+LOPERAMIDA*;Comprimido 2mg;Gastrointestinales;Programa AD y CP
+LORATADINA;Comprimido 10mg;Antialérgicos y antihistamínicos;
+LORATADINA;Jarabe 5mg/5mL;Antialérgicos y antihistamínicos;
+LORAZEPAM;Comprimido 2mg;Sistema nervioso y músculo estriado;Programa AD y CP
+LORAZEPAM;Comprimido sublingual 2mg;Sistema nervioso y músculo estriado;Sólo para tratamiento de crisis de pánico
+LORAZEPAM;Solución inyectable 4mg/mL;Sistema nervioso y músculo estriado;
+LOSARTAN (Potásico);Comprimido 50mg;Cardiovascular;FOFAR
+LUBRICANTE;Gel fase acuosa;Soluciones inyectables y excipientes;PM Mujer
+MAGNESIO (Sulfato);Solución inyectable 25%;Soluciones inyectables y excipientes;Carro de paro
+MEDROXIPROGESTERONA (Acetato);Jeringa prellenada 104mg/0,65mL;Hormonas sexuales;PM Mujer
+MEDROXIPROGESTERONA (Acetato);Jeringa prellenada 150mh/1mL;Hormonas sexuales;PM Mujer
+MEDROXIPROGESTERONA (Acetato) + ESTRADIOL (Cipionato);Solución inyectable 25mg + 5mg /0,5mL;Hormonas sexuales;PM Mujer
+MELATONINA;Comprimido 3mg;Inductor del sueño;Inicio de tratamiento en trastornos del sueño en adultos y niños/CPU
+MELOXICAM;Comprimidos 15mg;Analgésicos y antiinflamatorios;
+MEROPENEM *;Polvo para solución inyectable 500mg;Antibacterianos;Gestión de camas en Red/Grupo de Reserva (PROA)
+METADONA;Comprimido 10mg;Analgésico opioide;Programa AD y CP
+METAMIZOL (Sódico);Comprimido 300mg;Analgésicos y antiinflamatorios;CPU
+METAMIZOL (Sódico);Solución inyectable 0,5g/mL;Analgésicos y antiinflamatorios;CPU
+METAMIZOL (Sódico);Supositorio 250mg;Analgésicos y antiinflamatorios;
+METFORMINA (Clorhidrato);Comprimido 500mg;Endocrino y metabolismo;
+METFORMINA (Clorhidrato);Comprimido 850mg;Endocrino y metabolismo;FOFAR/Financiado por apoyo a la Gestion
+METFORMINA (Clorhidrato);Comprimido de liberación prolongada 1000mg;Endocrino y metabolismo;FOFAR
+METILDOPA;Comprimido 250mg;Cardiovascular;
+METILFENIDATO*;Comprimido 10mg;Sistema nervioso y músculo estriado;Contrarreferencia del nivel secundario y/o Consultoría de psiquiatra/neurólogo infanto-adolescente/Especialista infanto-adolescente del HCSF
+METILFENIDATO*;Comprimido de liberación prolongada 20mg;Sistema nervioso y músculo estriado;Contrarreferencia del nivel secundario y/o Consultoría de psiquiatra/neurólogo infanto-adolescente/Especialista infanto-adolescente del HCSF/GES Alcohol y Drogas en menores de 20 años
+METOCLOPRAMIDA;Comprimido 10mg;Tracto digestivo y metabolismo;Alternativa a DOMPERIDONA/CPU
+METOCLOPRAMIDA;Solución inyectable 5mg/mL;Tracto digestivo y metabolismo;Alternativa a DOMPERIDONA/CPU
+METOTREXATO*;Comprimido 2,5mg;Endocrino y metabolismo;Artritis Reumatoídea
+METRONIDAZOL;Comprimido 500mg;Antibacterianos;Grupo de acceso (PROA)
+METRONIDAZOL;Ovulo 500mg;Antibacterianos;Grupo de acceso (PROA)
+METRONIDAZOL;"Solución inyectable 0,5%; matraz 500mL";Antibacterianos;Grupo de acceso (PROA)
+MIDAZOLAM;Solución inyectable 5mg/mL;Sistema nervioso y músculo estriado;Carro de paro
+MIRTAZAPINA;Comprimido 15 y/o 30mg;Sistema nervioso y músculo estriado;GES Depresión / CPU (30 mg)
+MISOPROSTOL;Comprimido 200mcg;Genitourinario;Urgencia Gineco-Obstétrica
+MOMETASONA (Furoato);Suspensión nasal 50mcg;Respiratorio;Rinitis alérgica
+MORFINA;Solución inyectable 10mg/mL;Analgésico opioide;Programa AD y CP/Carro de paro/CPU
+MORFINA;Solución inyectable 20mg/mL;Analgésico opioide;Programa AD y CP
+MORFINA;Solución oral para gotas 2%;Analgésico opioide;Programa AD y CP/CPU
+MORFINA;Comprimido 30 mg LP;Analgésico opioide;CPU
+MUPIROCINA;Crema 2%;Antibacterianos / Dermatológicos;Solo en pacientes con impétigo no complicado
+NALOXONA;Solución inyectable 400mcg/mL;Antídotos;Carro de paro
+NAPROXENO;Comprimidos 550mg;Analgésicos y antiinflamatorios;Protocolo de resolutividad Cefalea
+NEOMICINA (Sulfato);Comprimidos 500mg;Antibacterianos;
+NIFEDIPINO;Comprimido 10 mg;;Atención de parto prematuro
+NIFEDIPINO;Comprimido de liberación prolongada 20mg;Cardiovascular;
+NISTATINA;Suspensión oral 100.000 UI/mL;Antifúngicos;CPU
+NITROFURANTOINA;Cápsula macrocristales 100mg;Antibacterianos;Grupo de acceso (PROA)
+NITROGLICERINA;Solución inyectable 50mg;Cardiovascular;Carro de paro
+NORETISTERONA ENANTATO/ESTRADIOL VALERIANATO;Comprimido 50 mg/5mg;Hormonas sexuales;PM Mujer (Climaterio)
+NOREPINEFRINA;Solución inyectable 1mg/mL;Cardiovascular;Shock hipovolémico, séptico o cardiogénico e Hipotensión refractaria a reposicion de volumen o con restricción de volumen, según protocolo local.Carro de paro (contar con bomba de infusion continua por microgoteo)
+OLANZAPINA*;Comprimido 10mg;Sistema nervioso y músculo estriado;"Psiquiatría Infanto-Juvenil/	
+Contrareferencia del nivel secundario psiquiatra infantoadolescente"
+OMEPRAZOL;Cápsula c/gránulos c/recubrimiento entérico 20mg;Tracto digestivo y metabolismo;CPU
+OMEPRAZOL;Liofilizado para solución inyectable 40mg;Tracto digestivo y metabolismo;Hemorragia digestiva alta, según protocolo local
+ONDANSENTRON;Comprimidos 4 y/o 8 mg;Tracto digestivo y metabolismo;Programa AD y CP/CPU
+ONDANSENTRON;Solución inyectable 4mg/2mL o 8 mg/4mL;Tracto digestivo y metabolismo;Programa AD y CP, Hiperémesis gravídica/CPU
+OSELTAMIVIR;Comprimido 75mg;Antivirales;Campaña Invierno/Grupo de vigilancia (PROA)
+OSELTAMIVIR;Suspensión oral 12mg/mL;Antivirales;Campaña Invierno/Grupo de vigilancia (PROA)
+OXIBUTININA;comprimido 5mg;Genitourinario;Tratamientro de vejiga irritable e incontinencia vesical
+OXICODONA;Comprimido 10mg;Analgésico opioide;Programa AD y CP
+OXIDO NITROSO;Gas;Soluciones inyectables y excipientes;
+OXIGENO;Gas;Soluciones inyectables y excipientes;
+OXCARBAZEPINA*;Suspensión oral 60 mg/mL;Sistema nervioso y músculo estriado;PM Epilepsia
+OXCARBAZEPINA*;Comprimido 300 mg;Sistema nervioso y músculo estriado;PM Epilepsia
+OXITOCINA;Solución inyectable 5 UI/mL;Genitourinario;
+PAMIDRONATO (Disódico);Liofilizado para solución inyectable 30 y/o 90mg;Endocrino y metabolismo;Programa AD y CP
+PAPAVERINA + ATROPINA;Comprimido 40mg + 0,5mg;Sistema nervioso y músculo estriado;
+PARACETAMOL;Comprimido 160mg;Analgésicos y antipirético;y/o jarabe 125 mg/5ml
+PARACETAMOL;Comprimido 500mg;Analgésicos y antipirético;
+PARACETAMOL;Solución inyectable 10mg/mL;Analgésicos y antipirético;
+PARACETAMOL;Solución oral para gotas 100mg/mL;Analgésicos y antipirético;
+PARACETAMOL;solucion oral jarabe 125 mg/5ml;Analgésicos y antipirético;y/o comprimidos 160 mg
+PARGEVERINA;Solución inyectable 5mg/mL;Tracto digestivo y metabolismo;
+PAROXETINA;Comprimido 20mg;Sistema nervioso y músculo estriado;
+PASTA LASSAR (Óxido de Zinc);Pomada 2%;Dermatológicos;
+PENICILINA G BENZATINA;Polvo para solución inyectable 1.200.000 UI;Antibacterianos;Grupo de acceso (PROA)
+PERMETRINA;Shampoo 1%;Antiparasitarios;Tratamiento escabiosis
+PICOSULFATO DE SODIO;Frasco gota 7,5 mg/ml;Gastrointestinales;CPU
+PIPERACICLINA + TAZOBACTAM*;Polvo para solución inyectable 4g + 0,5g;Antibacterianos;Gestión de camas en Red/Grupo de vigilancia (PROA)
+PIRAZINAMIDA;Comprimido 500mg;Antibacterianos;TBC
+PIRIDOXINA (Clorhidrato);Comprimido 10 y/o 50mg;Vitaminas y metabolismo;TBC
+PIRIDOXINA (Clorhidrato);Solución inyectable 100mg/mL;Vitaminas y metabolismo;
+POLIETILENGLICOL (PEG);Polvo para suspensión oral;Gastrointestinales;Programa AD y CP, Constipación hasta 20 años/CPU
+POTASIO (Cloruro);Comprimidos 600mg;Soluciones inyectables y excipientes;
+POTASIO (Cloruro);Solución inyectable 10%;Soluciones inyectables y excipientes;carro de paro
+PRAMIPEXOLE*;Comprimido 0,25mg;Sistema nervioso y músculo estriado;PM Parkinson
+PRAMIPEXOLE*;Comprimido 1mg;Sistema nervioso y músculo estriado;PM Parkinson
+PREDNISONA;Comprimido 5mg;Endocrino y metabolismo;
+PREDNISONA;Comprimido 20mg;Endocrino y metabolismo;
+PREDNISONA;Suspensión oral 20mg/5mL;Endocrino y metabolismo;PM Salud Respiratoria
+PREGABALINA;Comprimido 75mg;Sistema nervioso y músculo estriado;Programa AD y CP/Analgésico neuropático (Pie diabético, dolor post-herpético), según protocolo local/CPU/Fibromialgia
+PRIMIDONA*;Comprimido 250mg;Sistema nervioso y músculo estriado;
+PROGESTERONA MICRONIZADA ;Cápsula 100mg ;Hormonas sexuales;PM Mujer (Climaterio)
+PROPANOLOL (Clorhidrato);Comprimido 10 y/o 40mg;Cardiovascular;
+PROPANOLOL (Clorhidrato);Solución inyectable 1mg/mL;Cardiovascular;
+PROPARACAINA;Solución oftálmica 5mg/mL;Antisépticos y desinfectantes;
+PROPIFENAZONA + ADIFENINA;Supositorio 440mg + 50mg;Analgésicos y antiinflamatorios;
+QUETIAPINA*;Comprimido 25mg;Sistema nervioso y músculo estriado;"PM Parkinson/GES Demencia/Psiquiatría Infanto-Juvenil /CPU/	
+Contrareferencia del nivel secundario psiquiatra infantoadolescente"
+QUETIAPINA*;Comprimido 100mg;Sistema nervioso y músculo estriado;Continuidad tratamiento pacientes psiquiátricos crónicos compensados/Psiquiatría Infanto-Juvenil/CPU
+RANITIDINA;Comprimido 300mg;Tracto digestivo y metabolismo;
+RANITIDINA;Solución inyectable 10mg/mL;Tracto digestivo y metabolismo;
+RALTEGRAVIR;Comprimidos 400 mg;Antivirales;Protocolo atencion accidente corto-punzante y GES Victimas de violencia sexual/Grupo de vigilancia (PROA)
+RIFAMPICINA;Comprimido 150mg;Antibacterianos;Protocolo atencion accidente corto-punzante y GES Victimas de violencia sexual/Grupo de vigilancia (PROA)
+RIFAMPICINA;Solución oral 100mg/5mL;Antibacterianos;TBC
+RIFAMPICINA + ISONIAZIDA;Comprimido Dosis Fija Combinada 150mg + 150mg;Antibacterianos;TBC
+RIFAMPICINA + ISONIAZIDA + PIRAZINAMIDA;Comprimido Dosis Fija Combinada 75mg + 50mg + 150mg;Antibacterianos;TBC
+RIFAMPICINA + ISONIAZIDA + PIRAZINAMIDA + ETAMBUTOL;Comprimido Dosis Fija Combinada 150mg + 75mg + 400mg + 275mg;Antibacterianos;TBC
+RIFAPENTINA;Comprimido 150mg;Antibacterianos;TBC
+RINGER LACTATO;Solución inyectable;Soluciones inyectables y excipientes;Carro de paro
+RISPERIDONA;Comprimido 1mg;Sistema nervioso y músculo estriado;GES Demencia/Continuidad tratamiento pacientes psiquiátricos crónicos compensados/Psiquiatría Infanto-Juvenil /CPU
+RISPERIDONA*;Comprimido 3mg;Sistema nervioso y músculo estriado;Continuidad tratamiento pacientes psiquiátricos crónicos compensados/Psiquiatría Infanto-Juvenil
+RISPERIDONA*;Solución oral para gotas 1mg/mL;Sistema nervioso y músculo estriado;"Psiquiatría Infanto-Juvenil /CPU/	
+Contrareferencia del nivel secundario psiquiatra infantoadolescente"
+RITONAVIR;Comprimidos 100 MG;Antivirales;GES Victimas de violencia sexual/Grupo de vigilancia (PROA)
+RIVAROXABÁN*;Comprimido 20 mg;Anticoagulante;Continuidad de tratamiento iniciado en especialidad
+ROCURONIO (Bromuro);Solución inyectable 10mg/mL;Sistema nervioso y músculo estriado;Sedación gran quemado o politraumatizado, según protocolo local
+SALBUTAMOL (Sulfato);Inhalador oral 100mcg/dosis;Respiratorio;PM Salud Respiratoria
+SALBUTAMOL (Sulfato);Solución para nebulización 5mg/mL;Respiratorio;
+SALES REHIDRATANTES;Solución oral 60mEq de sodio/L;Soluciones inyectables y excipientes;
+SALES REHIDRATANTES;Solución oral 90mEq de sodio/L;Soluciones inyectables y excipientes;
+SALMETEROL;Inhalador oral 25mcg/dosis;Respiratorio;PM Salud Respiratoria
+SERTRALINA;Comprimido 50mg;Sistema nervioso y músculo estriado;
+SILDENAFIL;Comprimido 50mg;Genitourinario;Disfunción erectil en adulto mayor, según protocolo local.
+SODIO (Bicarbonato);Solución inyectable 2/3M (8,4%);Soluciones inyectables y excipientes;Carro de paro
+SODIO (Cloruro);Solución inyectable 0,9%;Soluciones inyectables y excipientes;Carro de paro
+SODIO (Cloruro);Solución inyectable 10%;Soluciones inyectables y excipientes;
+SOLUCION ORAL EVACUANTE;Bifosfato de Sodio 48g + Fosfato de Sodio 18g y/o Picosulfato de Sodio 7,5mg/mL;Gastrointestinales;Preparación exámenes radiológicos a pacientes No GES/HCSF adquiere y distribuye a Cesfam de su microrred. Programa AD y CP
+SULFASALAZINA*;Comprimido 500mg;Analgésicos y antiinflamatorios;Artritis Reumatoídea
+SUXAMETONIO (Cloruro) (SUCCINILCOLINA);Solución inyectable 20mg/mL;Sistema nervioso y músculo estriado;Urgencia Gineco-Obstétrica/Carro de paro
+TAMSULOSINA;Comprimido 0,4mg;Genitourinario;Tratamiento sintomático previo a confirmación GES Hiperplasia Prostática, no para continuidad de tratamiento.
+TENECTEPLASE;Polvo para solución inyectable 10.000 UI;Hemostáticos y anticoagulantes;Alternativa Altepasa/GES IAM
+TENOFOVIR/LAMIVUDINA/DOLUTERGRAVIR;Comprimidos 300/300/50 MG;Antivirales;Protocolo atencion accidente corto-punzante y GES Victimas de violencia sexual/Grupo de vigilancia (PROA)
+TENOFOVIR/EMTRICITABINA;Comprimidos 300/200 MG;Antivirales;Protocolo atencion accidente corto-punzante y GES Victimas de violencia sexual/Grupo de vigilancia (PROA)
+TERBINAFINA;Comprimido 250mg;Antifúngicos;Grupo de vigilancia (PROA)
+TIAMINA (Clorhidrato);Solución inyectable 30mg/mL;Vitaminas y metabolismo;
+TIBOLONA;Comprimido 2,5mg;Hormonas sexuales;PM Mujer (Climaterio)
+TOPIRAMATO*;Comprimido 25mg;Sistema nervioso y músculo estriado;"Psiquiatría Infanto-Juvenil/	
+Contrareferencia del nivel secundario psiquiatra infantoadolescente"
+TOPIRAMATO*;Comprimido 100 mg;Sistema nervioso y músculo estriado;PM Epilepsia
+TRAMADOL (Clorhidrato);Comprimido 50mg;Analgésico opioide;PM Artrosis/Programa AD y CP/CPU
+TRAMADOL (Clorhidrato);Solución oral para gotas 100mg/mL;Analgésico opioide;PM Artrosis/Programa AD y CP/CPU
+TRAMADOL (Clorhidrato);Comprimido liberación prolongada 100 mg;Analgésico Opioide;CPU
+TRAMADOL/PARACETAMOL;Comprimido 325/37.5 mg ;Analgésico opioide;CPU
+TRAZODONA;Comprimido 25 mg y 100 mg;Sistema nervioso y músculo estriado;GES Demencia/Adyuvante en el tratamiento de trastornos del sueño
+TRICLOSAN;Jabón líquido 1%;Antisépticos y desinfectantes;Alternativa Clorhexidina
+TRIHEXIFENIDILO (Clorhidrato);Comprimido 2mg;Sistema nervioso y músculo estriado;PM Parkinson
+TRIMEBUTINO;Comprimido 100mg;Tracto digestivo y metabolismo;
+VANCOMICINA*;Polvo para solución inyectable 500mg;Antibacterianos;Gestión de camas en Red/Grupo de vigilancia (PROA)
+VASELINA AZUFRADA;Ungüento 6%;Dermatológicos;
+VASELINA LIQUIDA;"Aceite mineral; frasco 250mL";Soluciones inyectables y excipientes;
+VASELINA SOLIDA;Pomada;Dermatológicos;
+VENLAFAXINA;Comprimido de liberacion prolongada 75mg;Sistema nervioso y músculo estriado;
+VERAPAMILO;Solución inyectable 5mg/2mL;Cardiovascular;Urgencia Gineco-Obstétrica/Carro de paro
+VIGABATRINA*;Comprimido 500 mg;Sistema nervioso y músculo estriado;PM Epilepsia
+VILDAGLIPTINA;Comprimido 50mg;Endocrino y metabolismo;PM Cardiovascular
+VITAMINAS A – C – D;Solución oral para gotas;Vitaminas y metabolismo;
+WARFARINA;Comprimido 5mg;Hemostáticos y anticoagulantes;
+ZINC;Solución oral 5mg/mL;Vitaminas y metabolismo;
+ZIDOVUDINA;Frasco 50 MG/5ML;Antivirales;GES Victimas de violencia sexual/Grupo de vigilancia (PROA)
+ZIDOVUDINA;Comprimido 300 MG;Antivirales;GES Victimas de violencia sexual/Grupo de vigilancia (PROA)
+ZOLPIDEM;Comprimido 10mg;Inductor del sueño;Solo uso en adulto mayor

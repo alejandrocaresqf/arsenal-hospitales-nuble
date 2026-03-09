@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Arsenal farmacológico básico – Hospitales Comunitarios Servicio de Salud Ñuble</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/tabulator-tables@6.3.0/dist/css/tabulator.min.css">
+
+  <style>
+#table{ height: calc(100vh - 320px); }
+    :root{
+      --brand:#0b3d91;   /* azul */
+      --accent:#0f766e;  /* acento */
+      --bg:#f6f8fb;
+    }
+
+ body{
+  font-family:system-ui,Segoe UI,Roboto,Arial;
+  margin:16px auto;
+  max-width:1600px;
+  background:var(--bg);
+  color:#111827;
+}
+
+    .top{ display:flex; gap:14px; align-items:center; margin:0 0 14px; }
+    .logo{ height:58px; width:auto; }
+    h1{ margin:0; color:var(--brand); font-size:32px; line-height:1.1; }
+    .sub{ color:#4b5563; margin-top:2px; }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(180px,1fr));
+      gap:10px;
+      margin:12px 0 14px;
+    }
+    .card{
+      border:1px solid #e5e7eb;
+      border-radius:14px;
+      padding:10px 12px;
+      background:#fff;
+    }
+    .card .k{ font-size:12px; color:#6b7280; }
+    .card .v{ font-size:22px; font-weight:800; margin-top:2px; color:var(--brand); }
+
+    .row{
+      display:flex; gap:10px; flex-wrap:wrap; align-items:center;
+      margin:10px 0 14px;
+    }
+    input,select,label{ font-size:14px; }
+    input,select{
+      padding:9px 10px;
+      border:1px solid #ddd;
+      border-radius:10px;
+      background:#fff;
+    }
+    input:focus, select:focus{
+      outline:2px solid rgba(15,118,110,.25);
+      border-color: var(--accent);
+    }
+
+    /* Tabla */
+    .tabulator{
+      border:1px solid #e5e7eb;
+      border-radius:14px;
+      overflow:hidden;
+      background:#fff;
+    }
+    .tabulator .tabulator-header{ background: var(--brand); color:#fff; }
+    .tabulator .tabulator-header .tabulator-col{
+      background: var(--brand);
+      color:#fff;
+      border-right: 1px solid rgba(255,255,255,.18);
+    }
+    .tabulator .tabulator-header .tabulator-col-content{ padding:10px 8px; }
+    .tabulator-row.tabulator-row-even{ background:#f2f5fb; }
+
+    .note{
+      margin-top:14px;
+      padding:12px 14px;
+      border:1px solid #e5e7eb;
+      border-radius:14px;
+      background:#fff;
+      color:#374151;
+      font-size:13px;
+    }
+    .note h3{
+      margin:0 0 8px;
+      color:var(--brand);
+      font-size:14px;
+      letter-spacing:.02em;
+    }
+    .note ol{
+      margin:0;
+      padding-left:18px;
+    }
+    .note li{ margin:6px 0; }
+
+    /* Modal */
+    .modal{
+      position:fixed; inset:0;
+      background:rgba(0,0,0,.35);
+      display:flex; align-items:center; justify-content:center;
+      padding:18px;
+      z-index:9999;
+    }
+    .hidden{ display:none; }
+
+    .modalbox{
+      width:min(860px, 96vw);
+      background:#fff;
+      border-radius:18px;
+      overflow:hidden;
+      box-shadow:0 24px 70px rgba(0,0,0,.28);
+    }
+
+    .modalhead{
+      background: var(--brand);
+      color:#fff;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:14px 16px;
+    }
+    .mtitle{ font-size:18px; font-weight:800; line-height:1.2; }
+    .msub{ font-size:13px; opacity:.9; margin-top:2px; }
+    .mclose{
+      border:0;
+      background:rgba(255,255,255,.15);
+      color:#fff;
+      border-radius:12px;
+      padding:8px 10px;
+      cursor:pointer;
+    }
+
+    .modalbody{ padding:16px; }
+
+    .sectionTag{
+      display:inline-block;
+      font-size:12px;
+      font-weight:800;
+      letter-spacing:.06em;
+      color:#fff;
+      background: var(--brand);
+      border-radius:999px;
+      padding:6px 10px;
+      margin-bottom:10px;
+    }
+
+    .infogrid{
+      display:grid;
+      grid-template-columns:repeat(2, minmax(220px, 1fr));
+      gap:10px;
+    }
+    .ibox{
+      border:1px solid #e5e7eb;
+      border-radius:14px;
+      padding:10px 12px;
+      background:#f9fafb;
+    }
+    .ibox .k{ font-size:12px; color:#6b7280; }
+    .ibox .v{ font-size:15px; font-weight:800; color:#111827; margin-top:2px; }
+
+    .obsbox{
+      border:1px solid #e5e7eb;
+      border-radius:14px;
+      padding:12px;
+      background:#fff7ed;
+      min-height:56px;
+    }
+    .obsbox ul{
+      margin:0;
+      padding-left:18px;
+    }
+    .obsbox li{ margin:6px 0; }
+
+    @media (max-width:900px){
+      .cards{ grid-template-columns:1fr; }
+      .infogrid{ grid-template-columns:1fr; }
+      h1{ font-size:26px; }
+    }
+.topCenter{
+  justify-content:center;
+  text-align:center;
+}
+
+.headText{
+  max-width: 920px; /* para que no se vea demasiado ancho */
+}
+
+h1{
+  text-transform: uppercase;
+  letter-spacing: .02em;
+}
+
+.topRight{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  text-align:left;
+}
+
+.headText{
+  flex: 1;
+  max-width: 980px;
+}
+
+.logoBig{
+  height: 90px;     /* cámbialo a 100 si lo quieres más grande */
+  width: auto;
+}
+
+.top3col{
+  display:grid;
+  grid-template-columns: 120px 1fr 120px; /* izquierda - centro - derecha */
+  align-items:center;
+  gap:16px;
+}
+
+/* Ajusta el tamaño del logo aquí */
+.logoBig{
+  height: 90px;
+  width:auto;
+  justify-self:end;
+}
+
+/* “fantasma” para equilibrar el centro */
+.logoGhost{
+  width:120px;  /* debe ser igual al ancho de la 3ra columna */
+  height:1px;
+}
+
+.centerText{
+  text-align:center;
+}
+
+.headText{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.tabulator-header-filter input{
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 10px;
+  background: rgba(255,255,255,.12);
+  color: #fff;
+}
+.tabulator-header-filter input::placeholder{
+  color: rgba(255,255,255,.75);
+}
+
+.colFilter{
+  position: fixed;
+  z-index: 99999;
+  width: 280px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  box-shadow: 0 18px 50px rgba(0,0,0,.18);
+  padding: 10px;
+}
+.colFilter .cfTitle{
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--brand);
+  margin-bottom: 8px;
+}
+.colFilter input{
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+}
+.colFilter .cfBtns{
+  display:flex;
+  gap:8px;
+  justify-content:flex-end;
+  margin-top:10px;
+}
+.colFilter button{
+  border:0;
+  padding:8px 10px;
+  border-radius:12px;
+  cursor:pointer;
+  background:#f3f4f6;
+}
+.colFilter button:hover{ background:#e5e7eb; }
+
+
+/* ===== Ajustes para celular ===== */
+@media (max-width: 700px){
+
+  body{ margin:12px; }
+
+  /* Encabezado: logo arriba y título centrado */
+  .top3col{
+    grid-template-columns: 1fr;   /* una sola columna */
+    text-align: center;
+  }
+  .logoGhost{ display:none; }
+  .logoBig{
+    justify-self:center;
+    height:72px; /* tamaño logo en móvil */
+    margin-bottom:6px;
+  }
+  .headText{ max-width: 100%; }
+
+  /* Tarjetas: una debajo de otra */
+  .cards{
+    grid-template-columns: 1fr;
+  }
+
+  /* Inputs ocupan todo el ancho */
+  .row input, .row select{
+    width: 100%;
+  }
+
+  /* Tabla: que use más alto de pantalla */
+  #table{ height: calc(100vh - 380px); }
+}
+
+/* Modal en móvil: más ancho, más alto, scroll interno */
+@media (max-width: 700px){
+  .modalbox{
+    width: 96vw;
+    max-height: 88vh;
+  }
+  .modalbody{
+    max-height: calc(88vh - 64px);
+    overflow: auto;
+  }
+}
+
+/* En celular: logo arriba del título */
+@media (max-width: 700px){
+  .top3col{
+    display:flex !important;
+    flex-direction: column-reverse !important; /* logo arriba */
+    align-items: center !important;
+    text-align: center !important;
+    gap: 10px !important;
+  }
+
+  .logoGhost{ display:none !important; }
+
+  .logoBig{
+    height: 82px !important;  /* ajusta tamaño del logo en móvil */
+    justify-self: center !important;
+    margin: 0 auto !important;
+  }
+
+  .headText{
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+}
+
+  </style>
+</head>
+
+<body>
+<div class="top top3col">
+  <div class="logoGhost"></div>
+
+  <div class="headText centerText">
+    <h1>ARSENAL FARMACOLÓGICO BÁSICO PARA HOSPITALES COMUNITARIOS<br>
+    DE SALUD FAMILIAR DE LA REGIÓN DE ÑUBLE</h1>
+    <div class="sub">Aprobado por Resolución Exenta N°5754 del 23 de diciembre 2025</div>
+  </div>
+
+  <img class="logo logoBig" src="logo-ssn.png" alt="Servicio de Salud Ñuble" onerror="this.style.display='none'">
+</div>
+
+  <div class="cards">
+    <div class="card"><div class="k">Total de registros</div><div class="v" id="c_total">—</div></div>
+    <div class="card"><div class="k">Con observaciones</div><div class="v" id="c_obs">—</div></div>
+    <div class="card"><div class="k">Clasificaciones</div><div class="v" id="c_clas">—</div></div>
+  </div>
+
+  <div class="row">
+    <input id="q" placeholder="Buscar (medicamento, presentación, clasificación, observaciones)" size="55" />
+    <select id="f_clas">
+      <option value="">Todas las clasificaciones</option>
+    </select>
+
+    <label style="display:flex;gap:8px;align-items:center">
+      <input type="checkbox" id="only_obs" />
+      Solo con observaciones
+    </label>
+  </div>
+
+  <div id="table"></div>
+
+<div id="colFilter" class="colFilter hidden">
+  <div class="cfTitle" id="cfTitle">Filtrar</div>
+  <input id="cfInput" type="text" placeholder="Escribe y presiona Enter" />
+  <div class="cfBtns">
+    <button id="cfClear" type="button">Limpiar</button>
+    <button id="cfClose" type="button">Cerrar</button>
+  </div>
+</div>
+
+  <!-- CUADRO EMERGENTE -->
+  <div id="modal" class="modal hidden">
+    <div class="modalbox">
+      <div class="modalhead">
+        <div>
+          <div id="m_title" class="mtitle">Medicamento</div>
+          <div id="m_sub" class="msub">Detalle</div>
+        </div>
+        <button id="modalClose" class="mclose" aria-label="Cerrar">✕</button>
+      </div>
+
+      <div class="modalbody">
+        <div class="sectionTag">INFORMACIÓN</div>
+
+        <div class="infogrid">
+          <div class="ibox">
+            <div class="k">Presentación disponible</div>
+            <div class="v" id="m_pres">—</div>
+          </div>
+          <div class="ibox">
+            <div class="k">Clasificación</div>
+            <div class="v" id="m_clas">—</div>
+          </div>
+        </div>
+
+        <div class="sectionTag" style="margin-top:14px">OBSERVACIONES (separadas por “/”)</div>
+        <div id="m_obs" class="obsbox">—</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TEXTO FINAL (tu listado 1-4) -->
+  <div class="note">
+    <h3>OBSERVACIONES</h3>
+    <ol>
+      <li>Los medicamentos marcados con asterisco (*) deben mantenerse disponibles en los establecimientos de Atención Primaria únicamente cuando existan pacientes contrarreferidos desde el nivel secundario, cuya continuidad de tratamiento deba ser garantizada en el nivel primario.</li>
+      <li>PM: Programa Ministerial - TBC: Tuberculosis - FOFAR: Fondo de Farmacia - CPU: Cuidados Paliativos Universales - AD y CP: Alivio del Dolor y Cuidados Paliativos - PROA: Programa de Optimización del Uso de Antimicrobianos.</li>
+      <li>Grupo de acceso (PROA): Corresponden a antimicrobianos de primera línea utilizados para el tratamiento de una amplia variedad de infecciones comunes. Su uso no debe estar restringido, ya que constituyen la base terapéutica inicial en APS.</li>
+      <li>Grupo de vigilancia (PROA): Incluye antimicrobianos con un espectro mayor que los del grupo de acceso. Se indican como fármacos de primera o segunda línea en un número limitado de infecciones menos frecuentes, o cuando se requiere una alternativa terapéutica. Aunque su uso debería ser más restringido, es fundamental que estos medicamentos estén sujetos a mayor monitorización y seguimiento por parte del equipo PROA.</li>
+    </ol>
+  </div>
+
+  <script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://unpkg.com/tabulator-tables@6.3.0/dist/js/tabulator.min.js"></script>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const clean = (v) => String(v ?? "").trim();
+
+    // Para aceptar encabezados con/sin tildes o may/min
+    function pick(row, options){
+      for(const key of options){
+        if(row[key] !== undefined) return clean(row[key]);
+      }
+      return "";
+    }
+
+    const KEY_MED = ["NOMBRE DEL MEDICAMENTO","Nombre del medicamento","MEDICAMENTO","Medicamento"];
+    const KEY_PRE = ["PRESENTACION DISPONIBLE","PRESENTACIÓN DISPONIBLE","Presentacion disponible","Presentación disponible","PRESENTACION","PRESENTACIÓN"];
+    const KEY_CLA = ["CLASIFICACIÓN","CLASIFICACION","Clasificación","Clasificacion"];
+    const KEY_OBS = ["OBSERVACIONES","Observaciones"];
+
+    let ALL = [];
+
+    function uniqueValues(rows, field){
+      const set = new Set();
+      rows.forEach(r => { const v = clean(r[field]); if(v) set.add(v); });
+      return [...set].sort((a,b)=>a.localeCompare(b,'es'));
+    }
+
+    function fillSelect(select, values){
+      while(select.options.length > 1) select.remove(1);
+      values.forEach(v=>{
+        const opt = document.createElement("option");
+        opt.value = v; opt.textContent = v;
+        select.appendChild(opt);
+      });
+    }
+
+    function computeCounts(rows){
+      $("c_total").textContent = rows.length;
+      $("c_obs").textContent = rows.filter(r => clean(r.OBSERVACIONES)).length;
+      $("c_clas").textContent = new Set(rows.map(r=>clean(r.CLASIFICACION)).filter(Boolean)).size;
+    }
+
+    function renderObsList(obsText){
+      const box = $("m_obs");
+      const obs = (obsText || "").trim();
+      if(!obs){
+        box.textContent = "Sin observaciones";
+        return;
+      }
+
+      // Separar por "/" (con o sin espacios alrededor)
+      const parts = obs.split(/\s*\/\s*/).map(x => x.trim()).filter(Boolean);
+
+      // Mostrar como viñetas
+      box.innerHTML = "<ul>" + parts.map(x => `<li>${escapeHtml(x)}</li>`).join("") + "</ul>";
+    }
+
+    // Para evitar que textos raros rompan el HTML
+    function escapeHtml(str){
+      return String(str)
+        .replaceAll("&","&amp;")
+        .replaceAll("<","&lt;")
+        .replaceAll(">","&gt;")
+        .replaceAll('"',"&quot;")
+        .replaceAll("'","&#039;");
+    }
+
+    function openModal(d){
+      const nombre = d.NOMBRE || "";
+      const pres   = d.PRESENTACION || "";
+      const clas   = d.CLASIFICACION || "";
+      const obsRaw = d.OBSERVACIONES || "";
+
+      $("m_title").textContent = (nombre + (pres ? " — " + pres : "")).trim();
+      $("m_sub").textContent   = "Servicio de Salud Ñuble";
+      $("m_pres").textContent  = pres || "—";
+      $("m_clas").textContent  = clas || "—";
+
+      renderObsList(obsRaw);
+
+      $("modal").classList.remove("hidden");
+    }
+
+    // TABLA (sin paginación: scroll)
+    const table = new Tabulator("#table", {
+      layout:"fitDataStretch",
+     height:"100%",
+      pagination:false,
+responsiveLayout: "collapse",
+
+      rowFormatter:function(row){ row.getElement().style.cursor="pointer"; },
+
+columns:[
+  {title:"Nombre del medicamento", field:"NOMBRE", responsive:0},
+  {title:"Presentación disponible", field:"PRESENTACION", responsive:1},
+  {title:"Clasificación", field:"CLASIFICACION", responsive:2},
+  {title:"Observaciones", field:"OBSERVACIONES", responsive:3},
+],
+
+      rowClick:function(e, row){
+        openModal(row.getData());
+      },
+    });
+// FORZAR CLIC: abre el cuadro al hacer clic en cualquier fila o celda
+table.on("rowClick", function(e, row){
+  openModal(row.getData());
+});
+
+table.on("cellClick", function(e, cell){
+  openModal(cell.getRow().getData());
+});
+
+    function apply(){
+      const q = $("q").value.trim().toLowerCase();
+      const clas = $("f_clas").value;
+      const onlyObs = $("only_obs").checked;
+
+      const rows = ALL.filter(r=>{
+        if(clas && r.CLASIFICACION !== clas) return false;
+        if(onlyObs && !clean(r.OBSERVACIONES)) return false;
+
+        if(q){
+          const blob = [r.NOMBRE,r.PRESENTACION,r.CLASIFICACION,r.OBSERVACIONES].join(" ").toLowerCase();
+          if(!blob.includes(q)) return false;
+        }
+        return true;
+      });
+
+      table.setData(rows);
+      computeCounts(rows);
+    }
+
+    // Cargar CSV
+    Papa.parse("arsenal.csv", {
+      download: true,
+      header: true,
+      skipEmptyLines: true,
+      complete: function(results){
+        ALL = results.data.map(row => ({
+          NOMBRE: pick(row, KEY_MED),
+          PRESENTACION: pick(row, KEY_PRE),
+          CLASIFICACION: pick(row, KEY_CLA),
+          OBSERVACIONES: pick(row, KEY_OBS),
+        })).filter(r => r.NOMBRE);
+
+        fillSelect($("f_clas"), uniqueValues(ALL, "CLASIFICACION"));
+        apply();
+      }
+    });
+
+    ["q","f_clas","only_obs"].forEach(id=>{
+      $(id).addEventListener("input", apply);
+      $(id).addEventListener("change", apply);
+    });
+
+    // Cerrar modal
+    const modal = $("modal");
+    $("modalClose").addEventListener("click", ()=> modal.classList.add("hidden"));
+    modal.addEventListener("click", (ev)=>{ if(ev.target === modal) modal.classList.add("hidden"); });
+
+// ===== Filtro tipo Excel (clic en encabezado) =====
+let currentField = null;
+
+const cf = document.getElementById("colFilter");
+const cfTitle = document.getElementById("cfTitle");
+const cfInput = document.getElementById("cfInput");
+const cfClear = document.getElementById("cfClear");
+const cfClose = document.getElementById("cfClose");
+
+function showColFilter(title, field, x, y){
+  currentField = field;
+  cfTitle.textContent = "Filtrar: " + title;
+  cf.classList.remove("hidden");
+
+  // posicionar cerca del click, pero sin salirse de la pantalla
+  const pad = 12;
+  const w = 280;
+  const h = 140;
+  let left = Math.min(x + pad, window.innerWidth - w - pad);
+  let top  = Math.min(y + pad, window.innerHeight - h - pad);
+  cf.style.left = left + "px";
+  cf.style.top  = top + "px";
+
+  cfInput.value = "";
+  cfInput.focus();
+}
+
+function hideColFilter(){
+  cf.classList.add("hidden");
+  currentField = null;
+}
+
+function applyColFilter(){
+  if(!currentField) return;
+  const val = cfInput.value.trim();
+
+  // limpiamos filtro anterior de ese campo
+  table.removeFilter(currentField, "like", "");
+
+  if(!val){
+    // si queda vacío, quitar filtro del campo
+    table.clearFilter(true);   // limpia todos
+    apply();                   // vuelve a aplicar tu filtro general (buscador/clasificación)
+    hideColFilter();
+    return;
+  }
+
+  // aplica el filtro "contiene"
+  table.addFilter(currentField, "like", val);
+  hideColFilter();
+}
+
+// Capturar clic en el encabezado de Tabulator (delegación)
+document.addEventListener("click", (ev)=>{
+  // si haces click fuera del popup, se cierra
+  if(!cf.classList.contains("hidden") && !cf.contains(ev.target)){
+    hideColFilter();
+  }
+});
+
+// Cuando se haga clic en una columna del header, abrir el popup
+document.getElementById("table").addEventListener("click", (ev)=>{
+  const colEl = ev.target.closest(".tabulator-col");
+  if(!colEl) return;
+
+  const field = colEl.getAttribute("tabulator-field");
+  if(!field) return;
+
+  const titleEl = colEl.querySelector(".tabulator-col-title");
+  const title = titleEl ? titleEl.textContent.trim() : field;
+
+  const rect = colEl.getBoundingClientRect();
+  showColFilter(title, field, rect.left + rect.width/2, rect.bottom);
+});
+
+cfInput.addEventListener("keydown", (e)=>{
+  if(e.key === "Enter") applyColFilter();
+  if(e.key === "Escape") hideColFilter();
+});
+cfClear.addEventListener("click", ()=>{
+  cfInput.value = "";
+  applyColFilter();
+});
+cfClose.addEventListener("click", hideColFilter);
+
+  </script>
+</body>
+</html>
